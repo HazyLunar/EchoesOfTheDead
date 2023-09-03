@@ -1,0 +1,53 @@
+module Base {
+
+	/************************ SOUNDS ************************/
+
+    	sound EchoScream1
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream1.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream2
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream2.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream3
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream3.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream4
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream4.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream5
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream5.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream6
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream6.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+	sound EchoScream7
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream7.wav, distanceMax = 250, volume = 0.5, }
+    }
+
+	sound EchoScream8
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream8.wav, distanceMax = 250, volume = 0.5, }
+    }
+	
+}
