@@ -18,13 +18,6 @@ Immerse yourself even further into the harrowing world of Project Zomboid with t
 2. Extract the downloaded archive to your Project Zomboid mods directory.
 3. Activate `Echoes of the Dead` from the in-game mods menu.
 
-## Configuration
-
-To customize your horror, adjust these settings in the sandbox options:
-
-- `Scream Trigger Chance`: Designate the probability of a scream arising after eliminating a zombie.
-- `Scream Radius`: Dictate how far the scream can be heard.
-
 ## Contribute
 
 Your feedback propels this mod forward! Encountered an issue or have an innovative idea? Please submit a ticket. If you're inclined to actively contribute, fork our repository and introduce your pull request.
