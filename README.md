@@ -18,9 +18,17 @@ Immerse yourself even further into the harrowing world of Project Zomboid with t
 
 ## Installation
 
-1. Download your desired version from the GitHub releases page.
-2. Extract the downloaded archive to your Project Zomboid mods directory.
-3. Activate `Echoes of the Dead` from the in-game mods menu.
+### For Single-player:
+1. Visit the `Echoes of the Dead` mod page on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3025595058).
+2. Click the "Subscribe" button.
+3. The mod will automatically download and install. Once done, activate `Echoes of the Dead` from the in-game mods menu.
+
+### For Multiplayer Servers:
+1. Visit the `Echoes of the Dead` mod page on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3025595058).
+2. Note down the Workshop ID (`3025595058`).
+3. Choose your desired version of the mod and note down its Mod ID.
+4. Add both the Workshop ID and the Mod ID to your server's mod list configuration.
+5. Ensure all players on the server have also subscribed to the correct version of the mod on the Steam Workshop for a synchronized experience.
 
 ## Contribute
 
