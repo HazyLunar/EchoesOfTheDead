@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./EchoesOfTheDead.png" alt="Echoes Of The Dead Logo">
+</p>
+
 # Echoes of the Dead Mod for Project Zomboid
 
 Immerse yourself even further into the harrowing world of Project Zomboid with the `Echoes of the Dead` mod. With every undead you fell, brace for the possibility of their anguished screams haunting the air, serving as grim reminders of their past lives.
