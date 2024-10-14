@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./EchoesOfTheDead.png" alt="Echoes Of The Dead Logo">
+</p>
+
 # Echoes of the Dead Mod for Project Zomboid
 
 Immerse yourself even further into the harrowing world of Project Zomboid with the `Echoes of the Dead` mod. With every undead you fell, brace for the possibility of their anguished screams haunting the air, serving as grim reminders of their past lives.
@@ -15,16 +19,17 @@ Immerse yourself even further into the harrowing world of Project Zomboid with t
 
 ## Installation
 
-1. Download your desired version from the GitHub releases page.
-2. Extract the downloaded archive to your Project Zomboid mods directory.
-3. Activate `Echoes of the Dead` from the in-game mods menu.
+### For Single-player:
+1. Visit the `Echoes of the Dead` mod page on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3025595058).
+2. Click the "Subscribe" button.
+3. The mod will automatically download and install. Once done, activate `Echoes of the Dead` from the in-game mods menu.
 
-## Configuration
-
-To customize your horror, adjust these settings in the sandbox options:
-
-- `Scream Trigger Chance`: Designate the probability of a scream arising after eliminating a zombie.
-- `Scream Radius`: Dictate how far the scream can be heard.
+### For Multiplayer Servers:
+1. Visit the `Echoes of the Dead` mod page on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3025595058).
+2. Note down the Workshop ID (`3025595058`).
+3. Choose your desired version of the mod and note down its Mod ID.
+4. Add both the Workshop ID and the Mod ID to your server's mod list configuration.
+5. Ensure all players on the server have also subscribed to the correct version of the mod on the Steam Workshop for a synchronized experience.
 
 ## Contribute
 
