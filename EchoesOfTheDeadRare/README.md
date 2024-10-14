@@ -7,6 +7,7 @@ Engulf yourself in the harrowing world of Project Zomboid with the `Echoes of th
 - **Chilling Zombie Sounds:** The mod includes an array of distinct screams, ensuring that players never quite know what to expect upon each zombie kill.
 - **Dynamic Screams:** Not all zombies will scream upon death. There's a chance that a killed zombie might let out a chilling scream, adding a layer of unpredictability.
 - **Varied Loudness & Distance:** The intensity (ranging from 50 to 110) and the distance (from 70 to 250 tiles) of the screams are randomized, making every scream unique in its own way.
+- **Sandbox Settings:** Now with a new version, adding in Sandbox Settings that work both in Multiplayer and Singleplayer. Players can now customize screams % chance to their liking!
 - **Player-Centric Design:** The scream plays around the player's location, giving a more immersive experience.
 
 ## Installation
@@ -21,7 +22,7 @@ Community contributions drive this mod's improvement! If you spot an issue or ha
 
 ## Support
 
-Love the eerie ambiance the mod adds? Consider showing your appreciation by [buying me a coffee](https://ko-fi.com/hazylunar).
+Love the eerie ambiance the mod adds? Consider showing your appreciation by [buying me a coffee](https://ko-fi.com/stormboxoriginal).
 
 ## License
 

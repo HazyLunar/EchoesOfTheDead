@@ -49,5 +49,29 @@ module Base {
         category = EchoesOfTheDead, loop = false, is3D = true,
         clip { file = media/sound/EchoScream8.wav, distanceMax = 250, volume = 0.5, }
     }
-	
+
+	sound EchoScream9
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream9.wav, distanceMax = 250, volume = 0.5, }
+    }
+
+	sound EchoScream10
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream10.wav, distanceMax = 250, volume = 0.5, }
+    }
+
+	sound EchoScream11
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream11.wav, distanceMax = 250, volume = 0.5, }
+    }
+
+	sound EchoScream12
+    {
+        category = EchoesOfTheDead, loop = false, is3D = true,
+        clip { file = media/sound/EchoScream12.wav, distanceMax = 250, volume = 0.5, }
+    }
+
 }

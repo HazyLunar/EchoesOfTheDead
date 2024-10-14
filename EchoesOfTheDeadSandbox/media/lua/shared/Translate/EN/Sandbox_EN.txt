@@ -1,0 +1,6 @@
+Sandbox_EN = {
+    Sandbox_EchoesOfTheDead = "Echoes of the Dead Settings",
+
+    Sandbox_ScreamChance = "Zombie Scream Chance",
+    Sandbox_ScreamChance_tooltip = "Set the chance (percentage) for a zombie to scream when it dies.\nDefault: 5%",
+}

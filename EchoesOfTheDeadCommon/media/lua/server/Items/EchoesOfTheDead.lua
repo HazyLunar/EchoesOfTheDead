@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------------
                Echoes of the Dead Mod for Project Zomboid - Main Logic
 -------------------------------------------------------------------------------------
-    Author: Hazy Lunar
+    Author: Stormbox
     Description: An active contributor and modder for Project Zomboid.
 
     Purpose: The "Echoes of the Dead" mod amplifies the eeriness of Project Zomboid by
@@ -14,7 +14,7 @@
                 commissioning a mod. I offer this service for a modest fee under $50,
                 adjusted depending on the mod's complexity. Your support allows me
                 to continue creating and refining mods for the community.
-                If you feel grateful or just fancy buying me a coffee, visit: https://ko-fi.com/hazylunar
+                If you feel grateful or just fancy buying me a coffee, visit: https://ko-fi.com/stormboxoriginal
 
     Contact: I always appreciate feedback, innovative ideas, or collaborative opportunities.
              Don't hesitate to reach out if you have any suggestions or are curious about
@@ -26,7 +26,7 @@
 
 local zombieSounds = {
     "EchoScream1", "EchoScream2", "EchoScream3", "EchoScream4", "EchoScream5",
-    "EchoScream6", "EchoScream7", "EchoScream8"
+    "EchoScream6", "EchoScream7", "EchoScream8", "EchoScream9", "EchoScream10", "EchoScream11", "EchoScream12"
 }
 
 local function PlayEchoSoundForPlayer(player)

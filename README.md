@@ -11,6 +11,7 @@ Immerse yourself even further into the harrowing world of Project Zomboid with t
   - **Uncommon**: 5% chance for a scream.
   - **Rare**: 3% chance for a scream.
   - **Very Rare**: 1% chance for a scream.
+  - **Sandbox**: Customizable Screams.
 
 ## Installation
 

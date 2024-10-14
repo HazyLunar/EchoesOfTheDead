@@ -22,12 +22,17 @@
 -------------------------------------------------------------------------------------
 ]]
 
--- EchoesOfTheDead.lua Very Rare Version
+-- EchoesOfTheDead.lua Sandbox Version
 
 local zombieSounds = {
     "EchoScream1", "EchoScream2", "EchoScream3", "EchoScream4", "EchoScream5",
     "EchoScream6", "EchoScream7", "EchoScream8", "EchoScream9", "EchoScream10", "EchoScream11", "EchoScream12"
 }
+
+-- Fetch the sandbox setting for scream chance
+local function getScreamChance()
+    return SandboxVars.EchoesOfTheDead.ScreamChance or 5 -- Default to 5% if the sandbox setting is not found
+end
 
 local function PlayEchoSoundForPlayer(player)
     local playerLocation = player:getCurrentSquare()
@@ -35,7 +40,8 @@ local function PlayEchoSoundForPlayer(player)
     local screamLoudness = ZombRand(50, 110)
     local screamDistance = ZombRand(70, 250)
 
-    if screamChanceRoll <= 1 then
+    -- Use the sandbox setting for scream chance
+    if screamChanceRoll <= getScreamChance() then
         local soundToPlay = zombieSounds[ZombRand(1, #zombieSounds)]
 
         -- Checking if player has a valid emitter before playing sound
@@ -76,4 +82,6 @@ local function EchoesOfTheDead(zombie)
     end
 end
 
-Events.OnZombieDead.Add(EchoesOfTheDead)
+Events.OnInitGlobalModData.Add(getScreamChance)     -- Ensure that sandbox settings are initialized early enough
+Events.OnServerStarted.Add(getScreamChance)     -- This ensures multiplayer server start handling
+Events.OnZombieDead.Add(EchoesOfTheDead)    -- Ensures the entire script works as intended upon zombie death
